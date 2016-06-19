@@ -24,7 +24,7 @@ require('./passport-init');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var chat = require('./routes/chat');
-
+var timeline = require('./routes/timeline');
 //Login and Registration
 var auth = require('./routes/auth');
 
@@ -57,8 +57,9 @@ app.use('/', routes);
 app.use('/users', users);
 app.use('/auth', auth);
 app.use('/chat', chat);
-
+app.use('/timeline',timeline);
 // catch 404 and forward to error handler
+
 app.use(function (req, res, next) {
     var err = new Error('Not Found');
     err.status = 404;

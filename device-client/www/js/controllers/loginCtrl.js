@@ -4,7 +4,8 @@ angular.module('starter.controllers')
 
     $scope.data = {};
     $scope.$storage = $localStorage.$default({
-      user: null
+      user: null,
+      id:null
     });
     $scope.login = function () {
       LoginService.loginUser($scope.data.username, $scope.data.password).success(function (data) {
@@ -13,6 +14,7 @@ angular.module('starter.controllers')
           template: "Hello " + data.email
         });
         $scope.$storage.user = data.email;
+        $scope.$storage.id = data.id;
         $log.info($scope.$storage.user);
         // $state.go('tab.chats');
       }).error(function (data) {

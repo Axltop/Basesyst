@@ -76,6 +76,15 @@ angular.module('starter', ['ionic', 'ngStorage', 'starter.controllers', 'starter
             controller: 'ChatCtrl'
           }
         }
+      })
+       .state('tab.timeline', {
+        url: '/timeline',
+        views: {
+          'tab-timeline': {
+            templateUrl: 'templates/tab-timeline.html',
+            controller: 'TimelineCtrl'
+          }
+        }
       });
 
     // if none of the above states are matched, use this as the fallback
