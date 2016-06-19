@@ -20,7 +20,7 @@ angular.module('starter.services')
             deferred.reject('Invalid credentials.');
           }
         });
-
+        
         promise.success = function (fn) {
           promise.then(fn);
           return promise;

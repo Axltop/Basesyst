@@ -5,9 +5,10 @@ var userSchema = new Schema({
     id: Number,
     email: String,
     // password must be encrypted with bcrypt
-    password: String
-    // firstName: String,
-    // lastName: String,
+    password: String,
+    firstName: String,
+    lastName: String,
+    avatar:{type:String, default:'images/avatar.png'}
     // //The location can be a String
     // location: {
     //     lat: Number,
