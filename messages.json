@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "5766961b69d5eb2709bc043d",
+    "id": "ex3m@mail.bg",
+    "message": "dadsfasdf",
+    "sender": "test2",
+    "reciever": "test1",
+    "__v": 0
+  },
+  {
+    "_id": "5766962269d5eb2709bc043e",
+    "id": "ex3m@mail.bg",
+    "message": "adfasdfadadsfasdf",
+    "sender": "test2",
+    "reciever": "test1",
+    "__v": 0
+  }
+]

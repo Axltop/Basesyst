@@ -1,0 +1,75 @@
+[
+  {
+    "_id": "57666be0c15501587d8b4d0c",
+    "email": "test@intern.com",
+    "password": "$2a$10$n5pNkjeYWYCTAd6clIjLCePxT2zqBXJKELlEXo6DqSPODgWzU8kwS",
+    "__v": 0
+  },
+  {
+    "_id": "5766755cff6b5f3c59fb039a",
+    "email": "Ivan@gmail.com",
+    "password": "$2a$10$mV82DPv9FFQmXCAMd7beA.BvzRN2uus/dXM.2GrUCKeSTG75uxu8S",
+    "firstName": "Ivan",
+    "lastName": "Petrov",
+    "__v": 0
+  },
+  {
+    "_id": "5766758865c905085babd142",
+    "email": "Ivan@gmail.com",
+    "password": "$2a$10$jCBvszpvqZ7EjTmFBj40wO6nnhvzPFkivM/inFpuJQz1aoR1Thl3O",
+    "firstName": "Ivan",
+    "lastName": "Petrov",
+    "__v": 0
+  },
+  {
+    "_id": "5766767862f006f0627eba39",
+    "email": "Ivan@gmail.com",
+    "password": "$2a$10$yn2707aKS6OHgl13hQn7o.1/UU/gEWOtStLUiku1QfH/A6uBP41xm",
+    "firstName": "Ivan",
+    "lastName": "Petrov",
+    "__v": 0
+  },
+  {
+    "_id": "57667694d98d25e763c962fe",
+    "email": "Ivan@gmail.com",
+    "password": "$2a$10$tADoGitjnZBj1jgBznc7MO8u6U1QDiWfRqELikAwu7GYn6D4co9Cy",
+    "firstName": "Ivan",
+    "lastName": "Petrov",
+    "__v": 0
+  },
+  {
+    "_id": "576676adf1fd09f364be9028",
+    "email": "Ivan@gmail.com",
+    "password": "$2a$10$/ySZNu6a85KAGnMegpINz.nAVTRAo/FAUEzN1srKBjdAUa3/WTspK",
+    "firstName": "Ivan",
+    "lastName": "Petrov",
+    "__v": 0
+  },
+  {
+    "_id": "576676cc7cfc970b662a945f",
+    "email": "Ivan@gmail.com",
+    "password": "$2a$10$nQK32q4MR3ykWi3IRxZA1umMgvpUhtFkFHPSFDY00bgPcxffqm1PG",
+    "firstName": "Ivan",
+    "lastName": "Petrov",
+    "__v": 0
+  },
+  {
+    "_id": "576676dce798bcaa66f3d753",
+    "email": "Ivan@gmail.com",
+    "password": "$2a$10$nQ1Zgfw1fzx5s8N7M2o1Au.p3OkmD2LdPNN9B.Hj/qCf5HbUA40i.",
+    "firstName": "Ivan",
+    "lastName": "Petrov",
+    "__v": 0
+  },
+  {
+    "_id": "5766960169d5eb2709bc043b",
+    "password": "$2a$10$SGKGyrOk9stqEclAN4JNLO4uaRJQW3qWCJn44N3m8oUduERTNM26y",
+    "__v": 0
+  },
+  {
+    "_id": "5766960569d5eb2709bc043c",
+    "email": "ex3m@mail.bg",
+    "password": "$2a$10$ZwQkVe6fRdBWta6ZWUMQO.gP/3n2U6fkTkOUNxKCZF31lg49BN3Be",
+    "__v": 0
+  }
+]
