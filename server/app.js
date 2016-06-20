@@ -25,6 +25,8 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 var chat = require('./routes/chat');
 var timeline = require('./routes/timeline');
+var calendar = require('./routes/calendar');
+
 //Login and Registration
 var auth = require('./routes/auth');
 
@@ -58,6 +60,7 @@ app.use('/users', users);
 app.use('/auth', auth);
 app.use('/chat', chat);
 app.use('/timeline',timeline);
+app.use('/calendar',calendar);
 // catch 404 and forward to error handler
 
 app.use(function (req, res, next) {

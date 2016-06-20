@@ -17,7 +17,7 @@ angular.module('starter.controllers')
 			$ionicLoading.show({
 				template: 'Loading...'
 			});
-			$http.get(SERVER_ADDRESS + ':3000/timeline/576676dce798bcaa66f3d753').success(function (result) {
+			$http.get(SERVER_ADDRESS + ':3000/timeline/'+$localStorage.id).success(function (result) {
 				$ionicLoading.hide();
 				$scope.challenges = result ;
 				$scope.$broadcast('scroll.refreshComplete');

@@ -10,14 +10,13 @@
 			<div class="item item-image">
 				<!-- Slide to the left  -->
 				<div ng-click="nextSlide()">Arrow Left</div>
-
 				<span>
 					{{challenge.title}}
 				</span>
 				<ion-slide-box on-slide-changed="slideChanged(index)">
 					<ion-slide ng-repeat='picture in challenge.pictures'>
 						<div>
-							<img src="{{SERVER_ADDRESS}}{{picture}}" alt="">
+							<img ng-src="{{SERVER_ADDRESS}}{{picture}}" alt="">
 							<br>
 						</div>
 					</ion-slide>
@@ -28,7 +27,7 @@
 			<div class="footer">
 				<span class="avatar">
 					<a class="item item-avatar" href="#">
-						<img src="{{SERVER_ADDRESS}}{{challenge._creator.avatar}}">
+						<img ng-src="{{SERVER_ADDRESS}}{{challenge._creator.avatar}}">
 					</a>
 				</span>
 				<span>
