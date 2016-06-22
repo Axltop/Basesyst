@@ -17,6 +17,9 @@ function CalculateTimes(challenges){
 	return result
 }
 
+
+
+
 function createTestChalllege(userID){
 	var newChallenge = new Challenge({
 		_creator : userID,
